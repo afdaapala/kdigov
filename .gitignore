@@ -1,8 +1,8 @@
 node_modules
 coverage
 .vscode
-config/config.json
-public/tmp/*
-public/activeSignage/*
-public/configFile/*
+# config/config.json
+# public/tmp/*
+# public/activeSignage/*
+# public/configFile/*
 

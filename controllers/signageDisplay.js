@@ -1,13 +1,11 @@
-'use strict';
-
-const fs = require('fs');
-const xml2js = require('xml2js');
-const Signage = require('@models/signage');
-const ActiveSignage = require('@models/activeSignage');
-const FTP = require('@models/ftpconfig');
-const legend = require('@configs/config');
-const lib = require('@libraries/library');
-const rest = require('restler');
+var fs = require('fs'),
+xml2js = require('xml2js');
+var signage = require('../models/signage');
+var ActiveSignage = require('../models/activeSignage');
+var FTP = require('../models/ftpconfig');
+var legend = require('../config/config');
+var lib = require('../library/library');
+var rest = require('restler');
 
 // load config files
 let confFile = require('@configs/config.json');

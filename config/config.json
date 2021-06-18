@@ -1,0 +1,191 @@
+﻿{
+    "parameter_config": {
+        "port": 3200,
+        "port_io": 3500,
+        "bmkg_client": "http://localhost:3200",
+        "bmkg_server": "https://bmkg-server.rhmn.io",
+        "bmkg_data": "https://data.bmkg.go.id/datamkg/MEWS/DigitalForecast/",
+        "secret": "41fd500b-6839-48e2-9ada-afd285d5b9ce"
+    },
+    "ftp_config": {
+        "ftp_host": "diseminasi.meteo.bmkg.go.id",
+        "ftp_port": "21",
+        "ftp_username": "labalaba",
+        "ftp_password": "laba2",
+        "ftp_path": "/",
+        "sync_time": "1",
+        "last_sync": ""
+    },
+    "province": [
+        "Aceh",
+        "Bali",
+        "Banten",
+        "Bengkulu",
+        "Gorontalo",
+        "DKI Jakarta",
+        "Jambi",
+        "Jawa Barat",
+        "Jawa Tengah",
+        "Jawa Timur",
+        "Kalimantan Barat",
+        "Kalimantan Selatan",
+        "Kalimantan Tengah",
+        "Kalimantan Timur",
+        "Kalimantan Utara",
+        "Kepulauan Bangka Belitung",
+        "Kepulauan Riau",
+        "Lampung",
+        "Maluku",
+        "Maluku Utara",
+        "Nusa Tenggara Barat",
+        "Nusa Tenggara Timur",
+        "Papua",
+        "Papua Barat",
+        "Riau",
+        "Sulawesi Barat",
+        "Sulawesi Selatan",
+        "Sulawesi Tengah",
+        "Sulawesi Tenggara",
+        "Sulawesi Utara",
+        "Sumatera Barat",
+        "Sumatera Selatan",
+        "Sumatera Utara",
+        "Yogyakarta"
+    ],
+    "icon": {
+        "0": [
+            "day",
+            "night",
+            "Cerah"
+        ],
+        "1": [
+            "cloudy-day-3",
+            "cloudy-night-3",
+            "Cerah Berawan"
+        ],
+        "2": [
+            "cloudy-day-3",
+            "cloudy-night-3",
+            "Cerah Berawan"
+        ],
+        "3": [
+            "cloudy",
+            "cloudy",
+            "Berawan"
+        ],
+        "4": [
+            "cloudy",
+            "cloudy",
+            "Berawan Tebal"
+        ],
+        "5": [
+            "haze",
+            "haze",
+            "Udara Kabur"
+        ],
+        "100": [
+            "day",
+            "night",
+            "Cerah"
+        ],
+        "101": [
+            "cloudy-day-3",
+            "cloudy-night-3",
+            "Cerah Berawan"
+        ],
+        "102": [
+            "cloudy-day-3",
+            "cloudy-night-3",
+            "Cerah Berawan"
+        ],
+        "103": [
+            "cloudy",
+            "cloudy",
+            "Berawan"
+        ],
+        "104": [
+            "cloudy",
+            "cloudy",
+            "Berawan Tebal"
+        ],
+        "105": [
+            "haze",
+            "haze",
+            "Udara Kabur"
+        ],
+        "10": [
+            "smoke-day",
+            "smoke-night",
+            "Asap"
+        ],
+        "45": [
+            "fog-day",
+            "fog-night",
+            "Berkabut"
+        ],
+        "60": [
+            "rainy-4",
+            "rainy-4",
+            "Hujan Ringan"
+        ],
+        "61": [
+            "rainy-4",
+            "rainy-4",
+            "Hujan Sedang"
+        ],
+        "63": [
+            "rainy-5",
+            "rainy-5",
+            "Hujan Lebat"
+        ],
+        "80": [
+            "rainy-1",
+            "rainy-4",
+            "Hujan Lokal"
+        ],
+        "95": [
+            "thunder",
+            "thunder",
+            "Hujan Petir"
+        ],
+        "97": [
+            "thunder",
+            "thunder",
+            "Hujan Petir"
+        ]
+    },
+    "mataAngin": {
+        "Utara": [
+            0,
+            22.5
+        ],
+        "Timur-Laut": [
+            22.5,
+            67.5
+        ],
+        "Timur": [
+            67.5,
+            112.5
+        ],
+        "Tenggara": [
+            112.5,
+            157.5
+        ],
+        "Selatan": [
+            157.5,
+            202.5
+        ],
+        "Barat-Daya": [
+            157.5,
+            247.5
+        ],
+        "Barat": [
+            247.5,
+            292.5
+        ],
+        "Barat-Laut": [
+            292.5,
+            337.5
+        ]
+    }
+}

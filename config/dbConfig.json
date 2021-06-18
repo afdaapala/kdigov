@@ -1,5 +1,5 @@
 {
   "default": {
-    "url": "mongodb://127.0.0.1/bmkg-signage-client"
+    "url": "mongodb://127.0.0.1/bmkg-signage"
   }
 }

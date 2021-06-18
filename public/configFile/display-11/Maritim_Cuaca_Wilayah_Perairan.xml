@@ -1,0 +1,1399 @@
+<?xml version="1.0"?><Wilayah_Perairan>
+<PublicationDate>2017-10-03 12:00:00</PublicationDate><Data>
+<Row>
+	<kode>A.01</kode>
+	<Wilayah>Selat Malaka bagian utara</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Barat</Arah_Angin>
+	<Angin_Knot>4 - 37</Angin_Knot>
+	<Gelombang_Rata>0.5 - 2</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>A.02</kode>
+	<Wilayah>Perairan Lhokseumawe</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Utara - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>0.5 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>A.03</kode>
+	<Wilayah>Perairan Sabang - Banda Aceh</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Barat Daya</Arah_Angin>
+	<Angin_Knot>4 - 37</Angin_Knot>
+	<Gelombang_Rata>0.5 - 2</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>A.04</kode>
+	<Wilayah>Perairan barat Aceh</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>22</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Barat Daya</Arah_Angin>
+	<Angin_Knot>4 - 22</Angin_Knot>
+	<Gelombang_Rata>0.5 - 2</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>A.05</kode>
+	<Wilayah>Samudera Hindia barat Aceh</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 37</Angin_Knot>
+	<Gelombang_Rata>1.6 - 2</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>A.06</kode>
+	<Wilayah>Selat Malaka bagian tengah</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Barat Daya - Utara</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.5 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>A.07</kode>
+	<Wilayah>Perairan Kep. Nias - Sibolga</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.5 - 2</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>A.08</kode>
+	<Wilayah>Samudera Hindia barat Kep. Nias</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Barat Daya - Selatan</Arah_Angin>
+	<Angin_Knot>6 - 28</Angin_Knot>
+	<Gelombang_Rata>1.6 - 2</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>A.09</kode>
+	<Wilayah>Perairan Riau</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Barat Daya - Utara</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.5 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>B.02</kode>
+	<Wilayah>Samudera Hindia barat Kep. Mentawai</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Variabel - Variabel</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>1.5 - 2.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>B.03</kode>
+	<Wilayah>Perairan Bengkulu</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>0.5 - 2.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>B.04</kode>
+	<Wilayah>Samudera Hindia barat Bengkulu</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>1.5 - 2.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>C.01</kode>
+	<Wilayah>Perairan barat Lampung</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>9</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>9 - 28</Angin_Knot>
+	<Gelombang_Rata>1.5 - 2.5</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>C.04</kode>
+	<Wilayah>Selat Sunda bagian selatan</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>9</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>9 - 37</Angin_Knot>
+	<Gelombang_Rata>0.5 - 2</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>C.03</kode>
+	<Wilayah>Selat Sunda bagian utara</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>9</Kecepatan><Kecepatan>33</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>9 - 33</Angin_Knot>
+	<Gelombang_Rata>0.2 - 1.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>C.04</kode>
+	<Wilayah>Selat Sunda bagian selatan</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>9</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>9 - 37</Angin_Knot>
+	<Gelombang_Rata>0.5 - 2</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>C.05</kode>
+	<Wilayah>Perairan timur Lampung</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>22</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 22</Angin_Knot>
+	<Gelombang_Rata>0.2 - 0.7</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>D.01</kode>
+	<Wilayah>Laut China Selatan utara Natuna</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Barat</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>D.02</kode>
+	<Wilayah>Perairan Kep. Natuna</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Barat</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>D.03</kode>
+	<Wilayah>Perairan Kep. Anambas</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>D.04</kode>
+	<Wilayah>Laut Natuna</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>D.05</kode>
+	<Wilayah>Perairan Singkawang</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Barat Daya</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>D.06</kode>
+	<Wilayah>Perairan Pontianak</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>E.01</kode>
+	<Wilayah>Perairan Batam - Bintan</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>22</Kecepatan></Kec_Angin>
+	<Arah_Angin>Selatan - Barat</Arah_Angin>
+	<Angin_Knot>6 - 22</Angin_Knot>
+	<Gelombang_Rata>0.2 - 0.8</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>E.02</kode>
+	<Wilayah>Perairan Kepulauan Lingga</Wilayah>
+	<Cuaca>Hujan Lokal</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>22</Kecepatan></Kec_Angin>
+	<Arah_Angin>Selatan - Barat</Arah_Angin>
+	<Angin_Knot>6 - 22</Angin_Knot>
+	<Gelombang_Rata>0.2 - 0.8</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>E.03</kode>
+	<Wilayah>Selat Berhala</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>22</Kecepatan></Kec_Angin>
+	<Arah_Angin>Selatan - Barat</Arah_Angin>
+	<Angin_Knot>6 - 22</Angin_Knot>
+	<Gelombang_Rata>0.2 - 0.6</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>F.01</kode>
+	<Wilayah>Perairan utara Pangkal Pinang</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>33</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 33</Angin_Knot>
+	<Gelombang_Rata>0.2 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>F.02</kode>
+	<Wilayah>Selat Gelasa</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>33</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 33</Angin_Knot>
+	<Gelombang_Rata>0.2 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>F.03</kode>
+	<Wilayah>Selat Bangka bagian utara</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>33</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 33</Angin_Knot>
+	<Gelombang_Rata>0.2 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>F.04</kode>
+	<Wilayah>Selat Bangka bagian selatan</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>33</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 33</Angin_Knot>
+	<Gelombang_Rata>0.2 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>D.07</kode>
+	<Wilayah>Selat Karimata bagian utara</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 37</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>F.05</kode>
+	<Wilayah>Selat Karimata bagian selatan</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>33</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 33</Angin_Knot>
+	<Gelombang_Rata>0.2 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>F.06</kode>
+	<Wilayah>Laut Jawa bagian barat</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>33</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 33</Angin_Knot>
+	<Gelombang_Rata>0.2 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>F.07</kode>
+	<Wilayah>Perairan Kep. Seribu</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>33</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 33</Angin_Knot>
+	<Gelombang_Rata>0.2 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>F.08</kode>
+	<Wilayah>Perairan utara Jawa Barat</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>33</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 33</Angin_Knot>
+	<Gelombang_Rata>0.2 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>F.09</kode>
+	<Wilayah>Perairan selatan Jawa Barat</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>41</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 41</Angin_Knot>
+	<Gelombang_Rata>0.2 - 2.5</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>F.10</kode>
+	<Wilayah>Samudera Hindia selatan Jawa Barat</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>41</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 41</Angin_Knot>
+	<Gelombang_Rata>0.2 - 2.5</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>F.11</kode>
+	<Wilayah>Perairan selatan Banten</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>41</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 41</Angin_Knot>
+	<Gelombang_Rata>0.2 - 2.5</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>F.12</kode>
+	<Wilayah>Samudera Hindia selatan Banten</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>41</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 41</Angin_Knot>
+	<Gelombang_Rata>0.2 - 3</Gelombang_Rata>
+	<status>Bahaya</status>
+</Row>
+<Row>
+	<kode>G.01</kode>
+	<Wilayah>Perairan selatan Kalimantan Tengah</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.2 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>G.02</kode>
+	<Wilayah>Laut Jawa bagian tengah</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>G.03</kode>
+	<Wilayah>Perairan Kep. Karimun Jawa</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.2 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>G.04</kode>
+	<Wilayah>Perairan utara Jawa Tengah</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.2 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>H.01</kode>
+	<Wilayah>Perairan selatan Jawa Tengah</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>1 - 2.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>H.02</kode>
+	<Wilayah>Samudera Hindia selatan Jawa Tengah</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>15</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>15 - 28</Angin_Knot>
+	<Gelombang_Rata>1.5 - 2.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>I.01</kode>
+	<Wilayah>Laut Jawa bagian timur</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>9</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>9 - 37</Angin_Knot>
+	<Gelombang_Rata>0.5 - 1.25</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>I.02</kode>
+	<Wilayah>Perairan Kepulauan Masalembu</Wilayah>
+	<Cuaca>Berawan Tebal</Cuaca>
+	<Kec_Angin><Kecepatan>9</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>9 - 37</Angin_Knot>
+	<Gelombang_Rata>0.5 - 1.25</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>I.05</kode>
+	<Wilayah>Perairan Gresik</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>22</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Timur</Arah_Angin>
+	<Angin_Knot>6 - 22</Angin_Knot>
+	<Gelombang_Rata>0.3 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>I.04</kode>
+	<Wilayah>Perairan utara Jawa Timur</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>9</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>9 - 37</Angin_Knot>
+	<Gelombang_Rata>0.5 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>I.06</kode>
+	<Wilayah>Selat Madura</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>30</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 30</Angin_Knot>
+	<Gelombang_Rata>0.3 - 0.8</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>I.08</kode>
+	<Wilayah>Perairan Selatan Jawa Timur</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>15</Kecepatan><Kecepatan>46</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>15 - 46</Angin_Knot>
+	<Gelombang_Rata>1.3 - 2.5</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>I.09</kode>
+	<Wilayah>Samudera Hindia selatan Jawa Timur</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>15</Kecepatan><Kecepatan>46</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>15 - 46</Angin_Knot>
+	<Gelombang_Rata>1.3 - 2.5</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>I.07</kode>
+	<Wilayah>Perairan Kepulauan Kangean</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>11</Kecepatan><Kecepatan>41</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>11 - 41</Angin_Knot>
+	<Gelombang_Rata>0.5 - 1.5</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>J.01</kode>
+	<Wilayah>Laut Bali</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 37</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>J.02</kode>
+	<Wilayah>Selat Bali bagian utara</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>J.03</kode>
+	<Wilayah>Selat Bali bagian selatan</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 2</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>J.04</kode>
+	<Wilayah>Selat Badung</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.25 - 2</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>J.05</kode>
+	<Wilayah>Samudera Hindia selatan Bali</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>1.5 - 2.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>J.06</kode>
+	<Wilayah>Selat Lombok bagian utara</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 37</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>J.07</kode>
+	<Wilayah>Selat Lombok bagian selatan</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 2</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>J.08</kode>
+	<Wilayah>Selat Alas bagian utara</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>11</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 11</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>J.09</kode>
+	<Wilayah>Selat Alas bagian selatan</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.25 - 2</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>J.10</kode>
+	<Wilayah>Laut Sumbawa</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>J.11</kode>
+	<Wilayah>Perairan utara Sumbawa</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>J.12</kode>
+	<Wilayah>Perairan selatan Sumbawa</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.25 - 2</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>J.13</kode>
+	<Wilayah>Samudera Hindia selatan NTB</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>1.5 - 2</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>K.01</kode>
+	<Wilayah>Selat Sape</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 1.25</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>K.02</kode>
+	<Wilayah>Perairan utara Flores</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>K.03</kode>
+	<Wilayah>Selat Flores</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>15</Kecepatan></Kec_Angin>
+	<Arah_Angin>Barat Daya - Barat Laut</Arah_Angin>
+	<Angin_Knot>4 - 15</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>K.04</kode>
+	<Wilayah>Selat Lamakera - Selat Boling</Wilayah>
+	<Cuaca>Berawan Tebal</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>15</Kecepatan></Kec_Angin>
+	<Arah_Angin>Barat Daya - Barat Laut</Arah_Angin>
+	<Angin_Knot>4 - 15</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>K.05</kode>
+	<Wilayah>Selat Alor</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>15</Kecepatan></Kec_Angin>
+	<Arah_Angin>Barat Daya - Utara</Arah_Angin>
+	<Angin_Knot>4 - 15</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>K.06</kode>
+	<Wilayah>Selat Sumba</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 2</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>K.07</kode>
+	<Wilayah>Laut Sawu</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Variabel - Timur</Arah_Angin>
+	<Angin_Knot>7 - 37</Angin_Knot>
+	<Gelombang_Rata>0.5 - 1.5</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>K.08</kode>
+	<Wilayah>Selat Ombai</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Variabel - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>K.09</kode>
+	<Wilayah>Selat Wetar</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>K.10</kode>
+	<Wilayah>Perairan selatan P. Sumba</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.75 - 2</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>K.11</kode>
+	<Wilayah>Samudera Hindia selatan NTT</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.75 - 2</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>K.12</kode>
+	<Wilayah>Perairan selatan Kupang - Pulau Rote</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>11</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Timur</Arah_Angin>
+	<Angin_Knot>11 - 37</Angin_Knot>
+	<Gelombang_Rata>0.25 - 1.25</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>K.13</kode>
+	<Wilayah>Laut Timor selatan NTT</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 1.25</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>K.14</kode>
+	<Wilayah>Laut Timor selatan Timor Leste</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>O.01</kode>
+	<Wilayah>Samudera Pasifik utara Kep. Halmahera</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>O.02</kode>
+	<Wilayah>Laut Halmahera</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>O.03</kode>
+	<Wilayah>Perairan utara Kep. Halmahera</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>O.04</kode>
+	<Wilayah>Perairan timur Kep. Halmahera</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>O.05</kode>
+	<Wilayah>Perairan barat Kep. Halmahera</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>N.09</kode>
+	<Wilayah>Perairan Kepulauan Talaud</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.5 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>N.08</kode>
+	<Wilayah>Perairan Kepulauan Sangihe</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.5 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>N.10</kode>
+	<Wilayah>Perairan Bitung - Manado</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.5 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>N.13</kode>
+	<Wilayah>Perairan selatan Sulawesi Utara</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Barat Daya</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>N.11</kode>
+	<Wilayah>Laut Maluku bagian utara</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.5 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>N.12</kode>
+	<Wilayah>Laut Maluku bagian selatan</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.5 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>N.07</kode>
+	<Wilayah>Laut Sulawesi bagian timur</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Utara - Timur</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>N.03</kode>
+	<Wilayah>Laut Sulawesi bagian tengah</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Barat Laut - Timur Laut</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>N.02</kode>
+	<Wilayah>Laut Sulawesi bagian barat</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>11</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Utara - Timur</Arah_Angin>
+	<Angin_Knot>11 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>N.01</kode>
+	<Wilayah>Perairan Kalimantan Utara</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>11</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Utara - Timur</Arah_Angin>
+	<Angin_Knot>11 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>N.04</kode>
+	<Wilayah>Perairan utara Sulawesi</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Barat Laut - Timur Laut</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>N.05</kode>
+	<Wilayah>Teluk Tomini selatan Gorontalo</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>N.06</kode>
+	<Wilayah>Teluk Tomini utara Poso</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>7</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>7 - 19</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>M.02</kode>
+	<Wilayah>Perairan Balikpapan</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>M.01</kode>
+	<Wilayah>Perairan Kotabaru</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>M.04</kode>
+	<Wilayah>Selat Makassar bagian utara</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>M.03</kode>
+	<Wilayah>Selat Makassar bagian tengah</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>L.01</kode>
+	<Wilayah>Selat Makassar bagian selatan</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>L.02</kode>
+	<Wilayah>Perairan barat Sulawesi Selatan</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>L.03</kode>
+	<Wilayah>Perairan Kepulauan Salabana</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>L.04</kode>
+	<Wilayah>Perairan Kepulauan Selayar</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>L.05</kode>
+	<Wilayah>Teluk Bone bagian utara</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>L.06</kode>
+	<Wilayah>Teluk Bone bagian selatan</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>L.07</kode>
+	<Wilayah>Laut Flores</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>P.01</kode>
+	<Wilayah>Samudera Pasifik utara Papua Barat</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>6 - 28</Angin_Knot>
+	<Gelombang_Rata>0.2 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>P.02</kode>
+	<Wilayah>Perairan Raja Ampat - Sorong</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Barat Daya</Arah_Angin>
+	<Angin_Knot>6 - 28</Angin_Knot>
+	<Gelombang_Rata>0.2 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>P.03</kode>
+	<Wilayah>Perairan Fak-fak - Kaimana</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>6 - 28</Angin_Knot>
+	<Gelombang_Rata>0.2 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>Q.01</kode>
+	<Wilayah>Samudera Pasifik utara Biak</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>6 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 1.25</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>P.04</kode>
+	<Wilayah>Perairan Manokwari</Wilayah>
+	<Cuaca>Hujan Sedang</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>6 - 28</Angin_Knot>
+	<Gelombang_Rata>0.2 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>Q.02</kode>
+	<Wilayah>Perairan Biak</Wilayah>
+	<Cuaca>Hujan Lokal</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>6 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 1.25</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>Q.03</kode>
+	<Wilayah>Teluk Cendrawasih</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>6 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>Q.04</kode>
+	<Wilayah>Samudera Pasifik utara Jayapura</Wilayah>
+	<Cuaca>Hujan Lokal</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>6 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 1.25</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>Q.05</kode>
+	<Wilayah>Perairan Jayapura - Sarmi</Wilayah>
+	<Cuaca>Hujan Lokal</Cuaca>
+	<Kec_Angin><Kecepatan>6</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>6 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>R.01</kode>
+	<Wilayah>Perairan Amamapere - Agats</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>9</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>9 - 28</Angin_Knot>
+	<Gelombang_Rata>0.25 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>R.02</kode>
+	<Wilayah>Perairan Yos Sudarso</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>15</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>15 - 37</Angin_Knot>
+	<Gelombang_Rata>0.25 - 1.25</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>R.03</kode>
+	<Wilayah>Perairan Merauke</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>15</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>15 - 37</Angin_Knot>
+	<Gelombang_Rata>0.25 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>R.04</kode>
+	<Wilayah>Laut Arafuru bagian timur</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>15</Kecepatan><Kecepatan>46</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>15 - 46</Angin_Knot>
+	<Gelombang_Rata>0.5 - 2</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>S.01</kode>
+	<Wilayah>Perairan Bau-bau</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>S.02</kode>
+	<Wilayah>Perairan Kepulauan Wakatobi</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>S.03</kode>
+	<Wilayah>Perairan Manui - Kendari</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Barat Daya</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.75</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>S.04</kode>
+	<Wilayah>Laut Banda timur Sulawesi Tenggara</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>S.05</kode>
+	<Wilayah>Teluk Tolo</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Barat Daya</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>S.06</kode>
+	<Wilayah>Perairan Kepulauan Banggai</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Tenggara - Barat Daya</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>S.07</kode>
+	<Wilayah>Perairan Kepulauan Sula</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>19</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 19</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>T.01</kode>
+	<Wilayah>Laut Seram bagian barat</Wilayah>
+	<Cuaca>--</Cuaca>
+	<Arah_Angin>--</Arah_Angin>
+	<Angin_Knot>--</Angin_Knot>
+	<Gelombang_Rata>--</Gelombang_Rata>
+	<status>--</status>
+</Row>
+<Row>
+	<kode>T.02</kode>
+	<Wilayah>Laut Seram bagian timur</Wilayah>
+	<Cuaca>Hujan Ringan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>0.1 - 0.5</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>T.03</kode>
+	<Wilayah>Perairan selatan Ambon</Wilayah>
+	<Cuaca>Hujan Lokal</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>T.04</kode>
+	<Wilayah>Laut Banda bagian utara</Wilayah>
+	<Cuaca>Hujan Lokal</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>28</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 28</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>T.05</kode>
+	<Wilayah>Laut Banda bagian selatan</Wilayah>
+	<Cuaca>Hujan Lokal</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 37</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1.25</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>T.06</kode>
+	<Wilayah>Perairan Kepulauan Kai</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 37</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1.25</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>T.07</kode>
+	<Wilayah>Perairan Kepulauan Aru</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 37</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1.25</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>T.08</kode>
+	<Wilayah>Perairan Kepulauan Tanimbar</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Tenggara</Arah_Angin>
+	<Angin_Knot>4 - 37</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1.5</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>T.09</kode>
+	<Wilayah>Perairan Kepulauan Babar</Wilayah>
+	<Cuaca>Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 37</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1.25</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>T.10</kode>
+	<Wilayah>Perairan Kep. Sermata - Kep. Leti</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 37</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1.25</Gelombang_Rata>
+	<status>Aman</status>
+</Row>
+<Row>
+	<kode>T.11</kode>
+	<Wilayah>Laut Arafuru bagian barat</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 37</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1.5</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+<Row>
+	<kode>T.12</kode>
+	<Wilayah>Laut Arafuru bagian tengah</Wilayah>
+	<Cuaca>Cerah Berawan</Cuaca>
+	<Kec_Angin><Kecepatan>4</Kecepatan><Kecepatan>37</Kecepatan></Kec_Angin>
+	<Arah_Angin>Timur Laut - Selatan</Arah_Angin>
+	<Angin_Knot>4 - 37</Angin_Knot>
+	<Gelombang_Rata>0.1 - 1.5</Gelombang_Rata>
+	<status>Waspada</status>
+</Row>
+</Data>
+</Wilayah_Perairan>

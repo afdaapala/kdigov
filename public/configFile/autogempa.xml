@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Infogempa>
+ <gempa>
+  <Tanggal>15-Sep-17</Tanggal>
+  <Jam>19:36:58 WIB</Jam>
+  <point><coordinates>99.37,1.43</coordinates></point>
+  <Lintang>1.43 LU</Lintang>
+  <Bujur>99.37 BT</Bujur>
+  <Magnitude>5.0 SR</Magnitude>
+  <Kedalaman>187 Km</Kedalaman>
+  <_symbol>imagesSWF/k2b.swf</_symbol>
+  <Wilayah1>12 km TimurLaut PADANGSIDEMPUAN-SUMUT</Wilayah1>
+  <Wilayah2>19 km Tenggara TAPANULISELATAN-SUMUT</Wilayah2>
+  <Wilayah3>33 km BaratDaya PADANGLAWASUTARA-SUMUT</Wilayah3>
+  <Wilayah4>252 km BaratLaut PEKANBARU-RIAU</Wilayah4>
+  <Wilayah5>1182 km BaratLaut JAKARTA-INDONESIA</Wilayah5>
+  <Potensi>tidak berpotensi TSUNAMI</Potensi>
+ </gempa>
+</Infogempa>

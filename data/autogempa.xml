@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Infogempa>
+ <gempa>
+  <Tanggal>23-Jun-20</Tanggal>
+  <Jam>14:43:29 WIB</Jam>
+  <point><coordinates>123.82,0.03</coordinates></point>
+  <Lintang>0.03 LU</Lintang>
+  <Bujur>123.82 BT</Bujur>
+  <Magnitude>6.3 SR</Magnitude>
+  <Kedalaman>94 Km</Kedalaman>
+  <_symbol>imagesSWF/k3b.swf</_symbol>
+  <Wilayah1>42 km BaratDaya BOLAANGUKI-BOLSEL-SULUT</Wilayah1>
+  <Wilayah2>94 km BaratDaya KOTAMOBAGU-SULUT</Wilayah2>
+  <Wilayah3>94 km Tenggara BONEBOLANGO-GORONTALO</Wilayah3>
+  <Wilayah4>102 km Tenggara GORONTALO-GORONTALO</Wilayah4>
+  <Wilayah5>2010 km TimurLaut JAKARTA-INDONESIA</Wilayah5>
+  <Potensi>tidak berpotensi TSUNAMI</Potensi>
+ </gempa>
+</Infogempa>

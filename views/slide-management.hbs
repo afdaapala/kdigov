@@ -1,0 +1,148 @@
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+    <div class="row">
+        <ol class="breadcrumb">
+            <li><a href="#">
+                <em class="fa fa-home"></em>
+            </a></li>
+            <li class="active">Signage Management</li>
+        </ol>
+    </div><!--/.row-->
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Signage Management</h1>
+        </div>
+    </div><!--/.row-->
+
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="panel panel-default chat">
+                <div class="panel-heading">
+                    List Display
+                    <div class="pull-right">
+                        <div class="btn btn-primary" data-toggle="modal" data-target="#createDisplay">Tambah Display
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="panel-body">
+                    <table class="table table-responsive table-center">
+                        <thead>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Area</th>
+                        <th>Provinsi</th>
+                        <th>Status</th>
+                        <th>Aksi</th>
+                        </thead>
+                        <tbody>
+                        <tr v-for="display, key in displays">
+                            <td style="width: 5%">\{{++key}}</td>
+                            <td>\{{display.signage_name}}</td>
+                            <td>\{{display.area.name}}</td>
+                            <td>\{{display.area.province.name}}</td>
+                            <td>\{{display.display_status}}</td>
+                            <td>
+                                <div class="btn btn-primary btn-sm"
+                                     @click="edit(display._id)">Edit
+                                </div>
+                                <div class="btn btn-danger btn-sm"
+                                     @click="remove(display._id,display.area._id,display.signage_name)">Hapus
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+        </div><!--/.col-->
+
+    </div><!--/.row-->
+</div>    <!--/.main-->
+
+
+<!-- Modal -->
+<div id="createDisplay" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Tambah Display</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal row-border" action="#">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Nama Display:</label>
+                            <input type="text" class="form-control input-sm" v-model="signage.name"
+                                   placeholder="Nama Display"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Provinsi Bertugas:</label>
+                            <select class="province-data form-control" v-model="signage.province" @change="onChange">
+                                <option v-for="province in provinces" v-bind:value="province._id">\{{province.name}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Kabupaten:</label>
+                            <select class="province-data form-control" v-model="signage.area_id" :disabled="disabled">
+                                <option v-for="area in areas" v-bind:value="area._id" v-bind:id="area._id">
+                                    \{{area.name}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input type="checkbox" value="true" v-model="perairan" @click="loadPerairan()">
+                            <label>Perairan</label>
+                        </div>
+                    </div>
+                    <div v-if="perairan == true" class="form-group">
+                        <div class="col-md-12">
+                            <label>Perairan Utama:</label>
+                            <select class="province-data form-control" v-model="signage.perairan">
+                                <option v-for="data in dataPerairan" v-bind:value="data.Wilayah[0]">
+                                    \{{data.Wilayah[0]}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div v-if="perairan == true" class="form-group">
+                        <div class="col-md-12">
+                            <label>Wilayah Perairan (Tahan Tombol ctrl untuk memilih lebih dari 1 perairan):</label>
+                            <select multiple class="province-data form-control" v-model="signage.wilayahPerairan">
+                                <option v-for="data in dataPerairan" v-bind:value="data.Wilayah[0]">
+                                    \{{data.Wilayah[0]}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" @click="saveDisplay()">Save</button>
+            </div>
+        </div>
+
+    </div>
+</div>

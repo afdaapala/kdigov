@@ -1,0 +1,13 @@
+.cloudAnimation1 {
+  animation: cloudAnimation1 2s ease-out forwards;
+  animation-delay: 0s;
+}
+
+@keyframes cloudAnimation1 {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 35%;
+  }
+}

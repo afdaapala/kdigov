@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+
+    <link rel='stylesheet' href='/plugins/bootstrap/css/bootstrap.min.css'/>
+    <link rel='stylesheet' href='/plugins/font-awesome/css/font-awesome.min.css'/>
+    <link rel='stylesheet' href='/plugins/select2/dist/css/select2.min.css'/>
+    <link href="/plugins/sweetalert-master/sweetalert2.min.css" type="text/css" rel="stylesheet">
+
+    {{#each css}}
+        <link rel='stylesheet' href='/css/{{this}}.css'/>
+    {{/each}}
+
+
+</head>
+<body>
+
+<div id="main-show">
+    <div v-if="loading == true">
+        <div class="loading">Loading</div>
+    </div>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+            <div class="login-panel panel panel-default">
+                <div class="panel-heading">Daftar Signage</div>
+                <div class="panel-body">
+                    <form role="form">
+                        <fieldset>
+                            <div class="form-group">
+                                <label>Lokasi Provinsi Signage:</label>
+                                <select id="province-data" class="form-control"  v-model="selectedProvince" @change="onChange">
+                                    <option v-for="province in provinces" v-bind:value="province._id">\{{province.name}}</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Lokasi Kabupaten Signage:</label>
+                                <select class="kabupaten-data form-control" v-model="selectedArea" :disabled="disabled" @change="onChange2">
+                                    <option v-for="area in areas"  v-bind:value="area._id" v-bind:id="area._id">\{{area.name}}</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Lokasi Area Signage:</label>
+                                <select class="area-data form-control" v-model="keyID" :disabled="disabled">
+                                    <option v-for="display, key in displays"  v-bind:value="key" v-bind:id="display._id">\{{display.signage_name}}</option>
+                                </select>
+                            </div>
+
+                            <div class="btn btn-primary pull-right" @click="saveSignage()">Daftar</div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div><!-- /.col-->
+    </div><!-- /.row -->
+</div>
+
+<script type="text/javascript">
+        var server_url = '{{bmkg_server}}';
+        var client_url = '{{bmkg_client}}';
+</script>
+
+<script type="text/javascript" src="/js/dashboard/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/dashboard/loadash.js"></script>
+<script type="text/javascript" src="/plugins/vue/dist/vue.min.js"></script>
+<script type="text/javascript" src="/plugins/vue-resource/dist/vue-resource.min.js"></script>
+<script type="text/javascript" src="/plugins/select2/dist/js/select2.js"></script>
+<script type="text/javascript" src="/plugins/sweetalert-master/sweetalert2.min.js"></script>
+
+<!--<script type="text/javascript" src="/js/dashboard.js"></script>-->
+{{#each js}}
+    <script type="text/javascript" src="/js/{{this}}.js"></script>
+{{/each}}
+
+</body>
+</html>

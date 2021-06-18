@@ -1,0 +1,430 @@
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+    <div class="row">
+        <ol class="breadcrumb">
+            <li><a href="#">
+                <em class="fa fa-home"></em>
+            </a></li>
+            <li><a href="#">
+                Signage Management
+            </a></li>
+            <li class="active">Slide Editor</li>
+        </ol>
+    </div><!--/.row-->
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Slide Editor</h1>
+        </div>
+    </div><!--/.row-->
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="panel panel-default chat">
+                <div class="panel-heading">
+                    Main Configuration
+                    <div class="pull-right">
+                        <div class="btn btn-primary" data-toggle="modal" data-target="#editSignageConfig">Edit
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="panel-body">
+
+                    <table class="table table-borderless">
+                        <tr>
+                            <td style="width: 30%">Name</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{displays.signage_name}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%">Area</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{displays.area.name}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%">Logo 1</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{displays.logo[0]}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%">Logo 2</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{displays.logo[1]}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%">Jam Sync</td>
+                            <td style="width: 2%">:</td>
+                            <td>jam \{{displays.sync_time}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%">Slideshow Timer</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{displays.timer}} detik</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%">Running Text</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{displays.running_text}}</td>
+                        </tr>
+
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div><!--/.col-->
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default chat">
+                <div class="panel-heading">
+                    <div class="pull-right">
+                        <div class="btn btn-primary" @click="showModal(displays.area.areaID,'createSlide')">Tambah Slide
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-12" v-for="slide, key in displays.slides">
+            <div class="panel panel-default chat">
+                <div class="panel-heading">
+                    Slide \{{key +1}}
+                    <div class="pull-right" v-if="key > 1" style="margin-left: 20px;">
+                        <div v-if="slide.status == true" class="btn btn-danger"
+                             @click="updateSlideStatus(displays._id,key)">Non Aktif
+                        </div>
+
+                        <div v-if="slide.status == false" class="btn btn-success"
+                             @click="updateSlideStatus(displays._id,key)">Aktifkan
+                        </div>
+                    </div>
+
+                    <div class="pull-right">
+                        <div class="btn btn-primary" @click="showModal(key,'editSlide')">Edit Slide
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="panel-body">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <td style="width: 30%">Slide Title</td>
+                                    <td style="width: 2%">:</td>
+                                    <td>\{{slide.title}}</td>
+                                </tr>
+
+                                <tr>
+                                    <td style="width: 25%">Overlay</td>
+                                    <td style="width: 2%">:</td>
+                                    <td>\{{slide.overlay}}</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%">XML File</td>
+                                    <td style="width: 2%">:</td>
+                                    <td>\{{slide.xml}}</td>
+                                </tr>
+                                <tr v-if="key > 1">
+                                    <td style="width: 25%">Slide Status</td>
+                                    <td style="width: 2%">:</td>
+                                    <td>\{{slide.status}}</td>
+                                </tr>
+                                <tr v-if="displays.slides[0].wilayahPerairan != '' ">
+                                    <td style="width: 25%">Wilayah Perairan</td>
+                                    <td style="width: 2%">:</td>
+                                    <td>\{{displays.slides[0].wilayahPerairan}}</td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <div v-if="key > 2">
+                            <div class="col-md-3">
+
+                                <div class="background-slide-wrapper">
+                                    <div class="background-slide-title">
+                                        Background Image (1920 x 1080 px):
+                                    </div>
+                                    <div class="background-slide-image">
+                                        <img v-bind:src="image_path+slide.background_img"/>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3">
+
+                                <div class="background-slide-wrapper">
+                                    <div class="background-slide-title">
+                                        Content Image
+                                    </div>
+                                    <div class="background-slide-image">
+                                        <img v-bind:src="image_path+slide.image"/>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div v-else>
+                            <div class="col-md-6">
+
+                                <div class="background-slide-wrapper">
+                                    <div class="background-slide-title">
+                                        Background Image (1920 x 1080 px):
+                                    </div>
+                                    <div class="background-slide-image">
+                                        <img v-bind:src="image_path+slide.background_img"/>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div><!--/.col-->
+
+
+    </div><!--/.row-->
+</div>    <!--/.main-->
+
+
+<!-- Modal -->
+<div id="editSignageConfig" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Edit Signage</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal row-border" action="#">
+
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Logo 2:</label>
+                            <div class="controls">
+                                <div v-if="!image">
+                                    <div class="fileUpload btn btn-default">
+                                        <span>Upload Image</span>
+                                        <input type="file" name="file" id="logo-2"
+                                               class="upload"
+                                               @change="onFileChange"/>
+                                    </div>
+                                </div>
+                                <div v-else>
+                                    <div class="image-placeholder-upload">
+                                        <img :src="image"/>
+                                        <button class="btn btn-danger btn-small m-t-10" @click="removeImage">Remove
+                                            image
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--<div class="form-group">-->
+                        <!--<div class="col-md-12">-->
+                            <!--<label>Jam Sync:</label>-->
+                            <!--<select class="form-control" v-model="displays.sync_time">-->
+                                <!--<option v-for="hour in hours" v-bind:value="hour">Jam \{{hour}}</option>-->
+                            <!--</select>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Timer Slidehow (Detik):</label>
+                            <input type="text" class="form-control input-sm" v-model="displays.timer"
+                                   placeholder="Timer pergantian slideshow ( dalam detik )"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Running Text:</label>
+                            <input type="text" class="form-control input-sm" v-model="displays.running_text"
+                                   placeholder="Running Text"/>
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" @click="updateMainSlide(displays._id)">Save</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="editSlide" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Edit Slide</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal row-border" action="#">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Judul Slide:</label>
+                            <input type="text" class="form-control input-sm" v-model="editSlide.title"
+                                   placeholder="Judul Slide"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Background Image: ( \{{editSlide.image}})</label>
+                            <div class="controls">
+                                <div v-if="!image">
+                                    <div class="fileUpload btn btn-default">
+                                        <span>Upload Image</span>
+                                        <input type="file" name="file" id="event_poster" class="upload"
+                                               @change="onFileChange"/>
+                                    </div>
+                                </div>
+                                <div v-else>
+                                    <div class="image-placeholder-upload">
+                                        <img :src="image"/>
+                                        <button class="btn btn-danger btn-small m-t-10" @click="removeImage">Remove
+                                            image
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Overlay:</label>
+                            <input v-model="editSlide.overlay" id="checkBox" type="checkbox"> Aktif
+                        </div>
+
+                    </div>
+
+
+                        <div v-if="perairan == true" class="form-group">
+                            <div class="col-md-12">
+                                <label>Perairan:</label>
+                                <select class="province-data form-control" v-model="editSlide.perairan">
+                                    <option v-for="data in dataPerairan" v-bind:value="data.Wilayah[0]">
+                                        \{{data.Wilayah[0]}}
+                                    </option>
+                                </select>
+                            </div>
+
+                        </div>
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" @click="updateSlide(displays._id)">Save</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="createSlide" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Tambah Slide Baru</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal row-border" action="#">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Judul Slide:</label>
+                            <input type="text" class="form-control input-sm" v-model="newSlide.title"
+                                   placeholder="Judul Slide"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Background Image:</label>
+                            <div class="controls">
+                                <div v-if="!image">
+                                    <div class="fileUpload btn btn-default">
+                                        <span>Upload Image</span>
+                                        <input v-model="newSlide.background_img" type="file" name="file"
+                                               id="event_poster" class="upload"
+                                               @change="onFileChange"/>
+                                    </div>
+                                </div>
+                                <div v-else>
+                                    <div class="image-placeholder-upload">
+                                        <img :src="image"/>
+                                        <button class="btn btn-danger btn-small m-t-10" @click="removeImage">Remove
+                                            image
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Produk Meteo:</label>
+                            <select class="form-control" v-model="selectedProduct">
+                                <option v-for="product in products" v-bind:value="product">\{{product}}</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <label>Overlay:</label>
+                            <input v-model="newSlide.overlay" id="checkBox" type="checkbox"> Aktif
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" @click="uploadPhoto()">Save</button>
+            </div>
+        </div>
+
+    </div>
+</div>

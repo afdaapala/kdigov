@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+
+    <link rel='stylesheet' href='/css/normalize.css'/>
+    <link rel='stylesheet' href='/fonts/font-awesome/css/font-awesome.min.css'/>
+
+    <link href="/plugins/keyboard/docs/css/jquery-ui.min.css" type="text/css" rel="stylesheet">
+    <link href="/plugins/keyboard/css/keyboard.css" type="text/css" rel="stylesheet">
+    <link href="/plugins/slick/slick.css" type="text/css" rel="stylesheet">
+    <link href="/plugins/sweetalert-master/dist/sweetalert.css" type="text/css" rel="stylesheet">
+    <link rel='stylesheet' href='/css/cube.css'/>
+
+    <!--photobooth-->
+    {{#each css}}
+        <link rel='stylesheet' href='/css/{{this}}.css'/>
+    {{/each}}
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript">
+	function autoRefreshPage()
+	{
+	     window.location = window.location.href;	
+	}
+	setInterval('autoRefreshPage()', 900000);
+    </script>
+
+</head>
+<body>
+
+<div class="main-slider">
+    {{{body}}}
+</div>
+
+<div class="logo_wrapper">
+    <div class="logo_img" id="logo-1"><img src="/images/bmkg-logo.png"/></div>
+</div>
+
+<div class="content_wrapper">
+
+    <div class="slide-content active" id="slide-content-0">
+
+        <div class="main-title" id="area">
+            
+        </div>
+
+        <div class="main-title hide" id="province">
+
+        </div>
+
+        <div class="sub-title-1 border_top">
+            <div class="current-date-display"></div>
+            <div class="small-date" id="slide1-date"></div>
+        </div>
+
+        <div id="current_weather">
+            <div id="current_weather_img"></div>
+            <div id="current_weather_text"></div>
+        </div>
+
+        <div id="current_weather_text_title">
+
+        </div>
+
+
+        <div class="info-table-slideshow">
+
+            <div id="info-table-title">Cuaca Hari Ini</div>
+
+            <div id="info-table">
+
+                <table class="weather-table-info">
+                    <tr>
+                        <td style="width: 70%"><i class="fa fa-thermometer"></i> Suhu Max.</td>
+                        <td style="width: 5%">:</td>
+                        <td id="max-temperature" style="width: 20%">/td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-thermometer-1"></i> Suhu Min.</td>
+                        <td>:</td>
+                        <td id="min-temperature"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="/images/media/icons/humid.png" width="32" height="32"> Kelembapan Max.</td>
+                        <td>:</td>
+                        <td id="max-humidity"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="/images/media/icons/humid.png" width="32" height="32"> Kelembapan Min.</td>
+                        <td>:</td>
+                        <td id="min-humidity"></td>
+                    </tr>
+
+
+                </table>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="hourly-forecast">
+            <div class="sub-title-2">
+                Info Cuaca
+            </div>
+            <div id="cubeTransition">
+                <div class="page1">
+
+                    <ul class="list-forecast">
+                        <li>
+                            <div class="forecast-title visible" id="wft-1">Pagi</div>
+                            <div class="forecast-content visible" id="wfp-1"><img
+                                    src="/images/media/animated/cloudy-day-3.svg"></div>
+                            <div class="forecast-footer visible" id="wff-1">0&deg; C</div>
+                        </li>
+                        <li>
+                            <div class="forecast-title visible" id="wft-1">Siang</div>
+                            <div class="forecast-content visible" id="wfp-2"><img
+                                    src="/images/media/animated/cloudy-day-3.svg"></div>
+                            <div class="forecast-footer visible" id="wff-2">0&deg; C</div>
+                        </li>
+                        <li>
+                            <div class="forecast-title visible" id="wft-1">Malam</div>
+                            <div class="forecast-content visible" id="wfp-3"><img
+                                    src="/images/media/animated/cloudy-day-3.svg"></div>
+                            <div class="forecast-footer visible" id="wff-3">0&deg; C</div>
+                        </li>
+                        <li>
+                            <div class="forecast-title visible" id="wft-1">Dini Hari</div>
+                            <div class="forecast-content visible" id="wfp-4"><img
+                                    src="/images/media/animated/cloudy-day-3.svg"></div>
+                            <div class="forecast-footer visible" id="wff-4">0&deg; C</div>
+                        </li>
+                        <li class="divider">
+                            <div class="forecast-title visible" id="wft-1">Esok</div>
+                            <div class="forecast-content visible" id="wfp-5"><img
+                                    src="/images/media/animated/cloudy-day-3.svg"></div>
+                            <div class="forecast-footer visible" id="wff-5">0&deg; C</div>
+                        </li>
+                        <li>
+                            <div class="forecast-title visible" id="wft-1">Lusa</div>
+                            <div class="forecast-content visible" id="wfp-6"><img
+                                    src="/images/media/animated/cloudy-day-3.svg"></div>
+                            <div class="forecast-footer visible" id="wff-6">0&deg; C</div>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="page2">
+                    <ul class="list-forecast">
+                        <li>
+                            <div class="forecast-title" id="wft-2">Pagi</div>
+                            <div class="forecast-content smaller-content" id="wfc-2"><img
+                                    src="/images/media/icons/humidity.png"></div>
+                            <div class="forecast-footer upper-footer" id="hff-1">40%</div>
+                        </li>
+                        <li>
+                            <div class="forecast-title" id="wft-2">Siang</div>
+                            <div class="forecast-content smaller-content" id="wfc-2"><img
+                                    src="/images/media/icons/humidity.png"></div>
+                            <div class="forecast-footer upper-footer" id="hff-2">40%</div>
+                        </li>
+                        <li>
+                            <div class="forecast-title" id="wft-2">Malam</div>
+                            <div class="forecast-content smaller-content" id="wfc-2"><img
+                                    src="/images/media/icons/humidity.png"></div>
+                            <div class="forecast-footer upper-footer" id="hff-3">40%</div>
+                        </li>
+                        <li>
+                            <div class="forecast-title" id="wft-2">Dini Hari</div>
+                            <div class="forecast-content smaller-content" id="wfc-2"><img
+                                    src="/images/media/icons/humidity.png"></div>
+                            <div class="forecast-footer upper-footer" id="hff-4">40%</div>
+                        </li>
+                        <li class="divider">
+                            <div class="forecast-title" id="wft-2">Esok</div>
+                            <div class="forecast-content smaller-content" id="wfc-2"><img
+                                    src="/images/media/icons/humidity.png"></div>
+                            <div class="forecast-footer upper-footer" id="hff-4">40%</div>
+                        </li>
+                        <li>
+                            <div class="forecast-title" id="wft-2">Lusa</div>
+                            <div class="forecast-content smaller-content" id="wfc-2"><img
+                                    src="/images/media/icons/humidity.png"></div>
+                            <div class="forecast-footer upper-footer" id="hff-4">40%</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="page3">
+                    <ul class="list-forecast">
+                        <li>
+                            <div class="forecast-title" id="wft-2">Pagi</div>
+                            <div class="forecast-content wd-content" id="wsf-1"></div>
+                            <div class="forecast-footer wd" id="wdf-1">40%</div>
+                        </li>
+                        <li>
+                            <div class="forecast-title" id="wft-2">Siang</div>
+                            <div class="forecast-content wd-content" id="wsf-2"></div>
+                            <div class="forecast-footer wd" id="wdf-2">40%</div>
+                        </li>
+                        <li>
+                            <div class="forecast-title" id="wft-2">Malam</div>
+                            <div class="forecast-content wd-content" id="wsf-3"></div>
+                            <div class="forecast-footer wd" id="wdf-3">40%</div>
+                        </li>
+                        <li>
+                            <div class="forecast-title" id="wft-2">Dini Hari</div>
+                            <div class="forecast-content wd-content" id="wsf-4"></div>
+                            <div class="forecast-footer wd" id="wdf-4">40%</div>
+                        </li>
+                        <li class="divider">
+                            <div class="forecast-title" id="wft-2">Esok</div>
+                            <div class="forecast-content wd-content" id="wsf-5"></div>
+                            <div class="forecast-footer wd" id="wdf-5">40%</div>
+                        </li>
+                        <li>
+                            <div class="forecast-title" id="wft-2">Lusa</div>
+                            <div class="forecast-content wd-content" id="wsf-6"></div>
+                            <div class="forecast-footer wd" id="wdf-6">40%</div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="slide-content" id="slide-content-1">
+        <div class="main-title" id="province-title">
+            Provinsi Jawa Barat
+        </div>
+
+        <div class="sub-title-1 border_top">
+            <div class="current-date-display"></div>
+            <div class="small-date" id="slide2-date"></div>
+        </div>
+
+        <div class="province-weather-info">
+            <table class="province-weather-info-table">
+                <thead>
+                <th style="width: 15%">Kota</th>
+                <th style="width: 15%">Hari Ini</th>
+                <th style="width: 20%">Suhu (&deg; C)</th>
+                <th style="width: 20%">Kelembapan (%)</th>
+                <th style="width: 15%">Angin (KPH)</th>
+                <th style="width: 25%">Esok Hari</th>
+                </thead>
+                <tbody id="province-weather-list">
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="clearfix"></div>
+
+    </div>
+
+    <div class="slide-content" id="slide-content-2" slide-status="false">
+        <div class="main-title" id="info-perairan-title">
+            Informasi Perairan
+        </div>
+
+        <div class="sub-title-1 border_top">
+            <div class="current-date-display"></div>
+            <div class="small-date" id="date-perairan"></div>
+        </div>
+
+        <div class="perairan-table-wrapper">
+
+
+
+
+
+        </div>
+        <div class="clearfix"></div>
+
+
+    </div>
+
+    <div class="slide-content" id="slide-content-3" slide-status="false">
+        <div class="main-title" id="info-gempa-title">
+            Informasi Gempa
+        </div>
+
+        <div class="sub-title-1 border_top">
+            <div class="current-date-display"></div>
+            <div class="small-date" id="date-gempa"></div>
+        </div>
+
+        <div class="gempa-picture">
+            <img src="/activeSignage/eqmap.gif"/>
+        </div>
+
+        <div class="gempa-info-3">
+            Wilayah Terdekat
+        </div>
+
+        <div class="gempa-info">
+            <ul class="gempa-info-list">
+                <li>
+                    <div class="info-gempa-title">Magnitude</div>
+                    <div class="info-gempa-content" id="magnitude">123</div>
+                </li>
+                <li>
+                    <div class="info-gempa-title">Kedalaman</div>
+                    <div class="info-gempa-content" id="kedalaman">123</div>
+                </li>
+                <li>
+                    <div class="info-gempa-title">Lintang</div>
+                    <div class="info-gempa-content" id="lintang">123</div>
+                </li>
+                <li>
+                    <div class="info-gempa-title">Bujur</div>
+                    <div class="info-gempa-content" id="bujur">123</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="gempa-info-2">
+            <table class="gempa-info-table">
+                <tbody id="gempa-list">
+                <tr>
+                    <td style="width: 6%">Waktu</td>
+                    <td style="width: 2%">:</td>
+                    <td style="width: 30%" id="waktu-gempa">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 5%">Wilayah 1</td>
+                    <td style="width: 2%">:</td>
+                    <td style="width: 30%" id="wilayah1">
+                        152 km TimurLaut TUAL-MALUKU
+                    </td>
+                </tr>
+                <tr>
+                    <td>Wilayah 2</td>
+                    <td>:</td>
+                    <td id="wilayah2">
+                        155 km BaratLaut KEP-ARU-MALUKU
+                    </td>
+                </tr>
+                <tr>
+                    <td>Wilayah 3</td>
+                    <td>:</td>
+                    <td id="wilayah3">
+                        162 km TimurLaut MALUKUTENGGARA
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" id="tsunami">Wilayah 5</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="clearfix"></div>
+
+    </div>
+
+
+
+</div>
+
+
+<div class="running-text">
+    <marquee>Badan Meteorologi Klimatologi dan Geofisika</marquee>
+</div>
+
+<script type="text/javascript">
+        var server_url = window.location.origin;
+</script>
+
+<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="/js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="/js/moment.js"></script>
+<script type="text/javascript" src="/js/jquery.touchSwipe.js"></script>
+<script type="text/javascript" src="/js/wheel-indicator.js"></script>
+<script type="text/javascript" src="/js/cubeTransition.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/plugins/slick/slick.min.js"></script>
+<script type="text/javascript" src="/plugins/autoscroll/dist/autoscroll.min.js"></script>
+<script type="text/javascript" src="/plugins/sweetalert-master/dist/sweetalert.min.js"></script>
+<script>
+    function animationOut(i) {
+    }
+
+    function animationIn(i) {
+    }
+
+    //well, you need modify the cubeTransition.js file
+    //delete the two functions if you dont need this kind of animation.
+</script>
+{{#each js}}
+    <script type="text/javascript" src="/js/{{this}}.js"></script>
+{{/each}}
+
+
+</body>
+</html>

@@ -1,0 +1,310 @@
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+    <div class="row">
+        <ol class="breadcrumb">
+            <li><a href="#">
+                <em class="fa fa-home"></em>
+            </a></li>
+            <li class="active">Dashboard</li>
+        </ol>
+    </div><!--/.row-->
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Dashboard</h1>
+        </div>
+    </div><!--/.row-->
+
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="panel panel-default chat">
+                <div class="panel-heading">
+                    FTP Configuration
+                    <div class="pull-right btn btn-primary" data-toggle="modal" data-target="#editFTP">
+                        Edit
+                    </div>
+                </div>
+
+                <div class="panel-body  h300">
+
+                    <table class="table table-borderless">
+                        <tr>
+                            <td style="width: 30%">FTP Host</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{ftp_conf.ftp_host}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 30%">FTP Port</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{ftp_conf.ftp_port}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 30%">FTP Username</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{ftp_conf.ftp_username}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 30%">FTP Password</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{ftp_conf.ftp_password}}</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 30%">FTP Path</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{ftp_conf.ftp_path}}</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div><!--/.col-->
+
+        <div class="col-md-6">
+            <div class="panel panel-default chat">
+                <div class="panel-heading">
+                    Province Configuration
+
+                </div>
+
+                <div class="panel-body h300">
+
+                    <table class="table table-borderless">
+                        <tr>
+                            <td style="width: 30%">Total Provinsi</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{totalProvince}}</td>
+                            <td style="width: 30%">Total Kabupaten</td>
+                            <td style="width: 2%">:</td>
+                            <td>\{{totalArea}}</td>
+                        </tr>
+                    </table>
+
+                    <table class="table table-responsive table-center">
+                        <thead>
+                        <th style="width: 3%">No</th>
+                        <th style="width: 0%">Provinsi</th>
+                        <th style="width: 0%">Total Daerah</th>
+                        <th style="width: 35%">Aksi</th>
+                        </thead>
+                        <tbody>
+                        <tr v-for="province, key in provinces">
+                            <td>\{{++key}}</td>
+                            <td style="width: 32%">\{{province.name}}</td>
+                            <td>\{{province.areas.length}}</td>
+                            <td>
+                                <div class="btn btn-default btn-sm"
+                                     @click="showModal('viewProvince',province.name)">Lihat
+                                </div>
+                                <div v-bind:class="{'loading-btn': loading == true}" class="btn btn-primary btn-sm" @click="syncArea(province.name)">Sync
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+        </div><!--/.col-->
+
+    </div><!--/.row-->
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="panel panel-default chat">
+                <div class="panel-heading">
+                    List Administrator
+                    <div class="pull-right" style="width: 30%;">
+                        <input type="text" class="form-control input-sm" style="height:40px" placeholder="Cari User" />
+                    </div>
+
+                </div>
+
+                <div class="panel-body">
+                    <div class="pull-right">
+                        <div class="btn btn-primary" data-toggle="modal" data-target="#createAdmin">Tambah Admin</div>
+                    </div>
+                    <table class="table table-responsive table-center">
+                        <thead>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th >Email</th>
+                        <th >Role</th>
+                        <th>Area</th>
+                        <th>Aksi</th>
+                        </thead>
+                        <tbody>
+                        <tr v-for="user, key in users">
+                            <td style="width: 5%">\{{++key}}</td>
+                            <td style="width: 15%">\{{user.name}}</td>
+                            <td>\{{user.email}}</td>
+                            <td>\{{user.role}}</td>
+                            <td>\{{user.area.name}}</td>
+                            <td>
+                                <div class="btn btn-default btn-sm"
+                                     @click="showModal('viewProvince',province.name)">Lihat
+                                </div>
+                                <div class="btn btn-danger btn-sm"
+                                     @click="removeUser(user._id,areaID)">Hapus
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+
+        </div><!--/.col-->
+
+    </div><!--/.row-->
+</div>    <!--/.main-->
+
+
+<!-- Modal -->
+<div id="editFTP" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Edit FTP Configuration</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal row-border" action="#">
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">FTP Host</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">FTP Port</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">FTP Username</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">FTP Password</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">FTP Path</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control"/>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" @click="saveFTP">Save</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="viewProvince" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">\{{selectedTitle}}</h4>
+            </div>
+            <div class="modal-body">
+
+                <table class="table table-responsive table-center">
+                    <thead>
+                    <th>No</th>
+                    <th>ID</th>
+                    <th>Area</th>
+                    </thead>
+                    <tbody>
+                    <tr v-for="area, key in areas">
+                        <td>\{{++key}}</td>
+                        <td style="width: 50%">\{{area.id}}</td>
+                        <td>\{{area.name}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="createAdmin" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Tambah Admin</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal row-border" action="#">
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Nama</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control input-sm" v-model="user.name" placeholder="Nama Lengkap"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control input-sm"  v-model="user.email" placeholder="Email"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Password</label>
+                        <div class="col-md-10">
+                            <input type="password" class="form-control input-sm"  v-model="user.password" placeholder="Password"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Konfirmasi Password</label>
+                        <div class="col-md-10">
+                            <input type="password" class="form-control input-sm"  v-model="user.confirm" placeholder="Konfirmasi Password"/>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" @click="saveUser">Save</button>
+            </div>
+        </div>
+
+    </div>
+</div>

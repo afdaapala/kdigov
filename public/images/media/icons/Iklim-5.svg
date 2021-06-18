@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 475.77 320.42" style="enable-background:new 0 0 475.77 320.42;" xml:space="preserve">
+
+  <defs>
+        <style type="text/css"><![CDATA[
+/*
+** CLOUDS
+*/
+@keyframes am-weather-cloud-2 {
+  0% {
+    -webkit-transform: translate(0px,0px);
+       -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+            transform: translate(0px,0px);
+  }
+
+  50% {
+    -webkit-transform: translate(2px,0px);
+       -moz-transform: translate(2px,0px);
+        -ms-transform: translate(2px,0px);
+            transform: translate(2px,0px);
+  }
+
+  100% {
+    -webkit-transform: translate(0px,0px);
+       -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+            transform: translate(0px,0px);
+  }
+}
+
+.am-weather-cloud-2 {
+  -webkit-animation-name: am-weather-cloud-2;
+     -moz-animation-name: am-weather-cloud-2;
+          animation-name: am-weather-cloud-2;
+  -webkit-animation-duration: 3s;
+     -moz-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+        ]]></style>
+    </defs>
+
+  <g class="am-weather-cloud-2">
+  <path id="XMLID_177_" style="fill:#FFFFFF;" d="M364.355,154.295c5.072-10.761,7.99-22.736,7.99-35.42c0-46-37.29-83.29-83.29-83.29
+	c-34.153,0-63.468,20.577-76.321,49.992c-10.755-6.818-23.471-10.822-37.148-10.822c-38.408,0-69.544,31.136-69.544,69.544
+	c0,0.017,0.003,0.033,0.003,0.05c-27.16,10.482-46.461,36.77-46.461,67.627c0,38.26,29.642,69.527,67.203,72.267v0.004h0.091
+	c1.738,0.124,3.473,0.265,5.243,0.265s3.505-0.14,5.243-0.265h197.459c4.804,1.1,9.783,1.736,14.92,1.736
+	c36.822,0,66.673-29.85,66.673-66.672C416.416,187.514,394.14,160.963,364.355,154.295z" transform="translate(-20,-11)"/>
+  </g>
+
+</svg>
